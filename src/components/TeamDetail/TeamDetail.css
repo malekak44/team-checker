@@ -46,4 +46,8 @@
     .container {
         width: 90% !important;
     }
+
+    #gender-image {
+        padding: 15px !important;
+    }
 }
