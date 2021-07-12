@@ -1,0 +1,23 @@
+.home {
+    display: table;
+    content: "";
+    clear: both;
+    background-color: #0E092B;
+    padding: 25px 0px;
+}
+
+.teams-container {
+    width: 81%;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+        display: block;
+    }
+
+    .teams-container {
+        width: 80%;
+    }
+}

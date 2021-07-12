@@ -1,0 +1,38 @@
+#card {
+    width: 250px;
+    height: 315px;
+    margin: 20px 10px;
+    float: left;
+    text-align: center;
+}
+
+#img {
+    width: 56%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#p {
+    font-size: 17px;
+}
+
+#exploreBtn {
+    color: white;
+    border-radius: 0;
+    margin: auto;
+    width: 60%;
+    display: block;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #card {
+        float: none;
+        width: 300px;
+    }
+
+    #img {
+        width: 47%;
+    }
+}
