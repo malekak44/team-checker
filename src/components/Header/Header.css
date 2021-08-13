@@ -19,13 +19,25 @@ header img {
     width: 10%;
 }
 
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 250px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     header {
-       height: 139px;
+        height: 139px;
         background-size: 155%;
     }
 
     header img {
         width: 25%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    header {
+        height: 100px;
     }
 }

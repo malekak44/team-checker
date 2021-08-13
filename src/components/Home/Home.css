@@ -8,8 +8,11 @@
 
 .teams-container {
     width: 81%;
-    display: block;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 768px) {
